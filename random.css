@@ -1,0 +1,108 @@
+body {
+  background-color: cadetblue;
+}
+
+label {
+  font-size: 100px;
+  color: yellow;
+}
+
+#randomBtn {
+  padding: 20px 50px;
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 50px;
+  border: none;
+  transition: 0.30s ;
+}
+
+
+#randomBtn:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+#randomBtn:active {
+  transform: scale(0.9);
+}
+
+
+.wrapper {
+  display: flex;
+  z-index: 1000;
+  position: relative;
+}
+
+
+#link {
+  display: none;
+}
+
+#note {
+  display: none;
+}
+
+
+img {
+  display: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 500px;
+  height: auto;
+}
+
+#link2 {
+  display: none;
+}
+
+#link3 {
+  display: none;
+}
+
+#link4 {
+  display: none;
+}
+
+#link5 {
+  display: none;
+}
+
+#link6 {
+  display: none;
+}
+
+#link7 {
+  display: none;
+}
+
+#link8 {
+  display: none;
+}
+
+#link9 {
+  display: none;
+}
+
+#link10 {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  display: none;
+}
+
+.btn-info {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none  ;
+}
